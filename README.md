@@ -1,4 +1,4 @@
-1Client & Software Requirements (summary)
+Client & Software Requirements (summary)
 Artemis Financial is a mid-sized financial services company that works with a lot of sensitive customer information. They wanted help reviewing and tightening the security of their web app. The main focus was on making sure data transfers were secure (TLS), improving how the app handles input and errors, checking for risky dependencies, and setting up a repeatable process to keep things secure in the future.
  What I did well & why secure coding matters
 “I kicked things off by going through the OWASP Top 10 list and just checking the code for anything that looked risky — stuff like data leaks, injection problems, or weak login setups. When I spotted issues, I made a quick plan for how to fix each one. I also ran a quick dependency and static check early on, which turned up a few outdated libraries that needed to be fixed.
